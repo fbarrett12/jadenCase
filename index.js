@@ -17,6 +17,7 @@
 
 // jadenCase("The rain in Spain")
 
+// Takes the first letter of every word and capitalizes it
 function jadenCaseTwo(str){
   let str = str.split(" ")
   let newArr = str.map(x => x[0].toUpperCase() + x.slice(1))
