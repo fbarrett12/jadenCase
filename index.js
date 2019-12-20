@@ -18,8 +18,8 @@
 // jadenCase("The rain in Spain")
 
 function jadenCaseTwo(str){
-  str = str.split(" ")
-  newArr = str.map(x => x[0].toUpperCase() + x.slice(1))
+  let str = str.split(" ")
+  let newArr = str.map(x => x[0].toUpperCase() + x.slice(1))
   return newArr.join(" ")
 }
 
